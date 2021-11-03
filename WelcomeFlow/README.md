@@ -5,7 +5,7 @@ Repository is used for various exercises with Postman
 This exercise is designed to get familiar with Welcome Flow setup. 
 
 ### Step 1 - Creating Email Trigger Task on SAS 360
-* Crete any email content
+* Create any email content
 * Specify trigger (Orchestration -> Trigger). 
   * Select External event - "**WelcomeFlow**". 
   * Select Event attribute - "**emailEventName**" and specify your unique email name / id value. 
