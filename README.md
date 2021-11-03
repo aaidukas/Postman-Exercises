@@ -7,18 +7,18 @@ This exercise is designed to get familiar with Welcome Flow setup.
 ### Step 1 - Creating Email Trigger Task on SAS 360
 * Crete any email content
 * Specify trigger (Orchestration -> Trigger). 
-  * Select External event - "Welcome Flow". 
-  * Select Event attribute - "emailEventName" and specify your unique email name / id value. 
+  * Select External event - "**WelcomeFlow**". 
+  * Select Event attribute - "**emailEventName**" and specify your unique email name / id value. 
 * Specify Header details: 
-  * Email Subject - select "emailSubject" from "Trigger Event" folder
-  * To - select "emailAddress" from "Trigger Event" folder
+  * Email Subject - select "**emailSubject**" from "**Trigger Event**" folder
+  * To - select "**emailAddress**" from "**Trigger Event**" folder
   * From / Reply-to - specify valid email address.
-* Personalize email content - select relevant merged tags from "Trigger Event" folder
+* Personalize email content - select relevant merged tags from "**Trigger Event**" folder
 * Save, publish and activate newly created email task. 
 
 ### Step 2 - Connect to CIDB database and query Welcome flow table
 * Connect to mct-cidb-test database
-* Select TOP 1000 rows from [DMT_360].[dbo].[WelcomeFlow]
+* Select TOP 1000 rows from **[DMT_360].[dbo].[WelcomeFlow]**
   
 ### Step 3 - POST data to Welcome Flow API
 * Find and try-out API via Swagger: https://mct-test-resp.danskenet.net/swagger/index.html
